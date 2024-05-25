@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Setup
 
-Things you may want to cover:
+Install Ruby & Node
 
-* Ruby version
+```bash
+bundle install
+npm install
+rails db:create db:migrate
 
-* System dependencies
+bin/dev # to run the rails server & vite
+```
 
-* Configuration
+### Docker
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+docker build -t my-app .
+docker run --rm -p 8080:3000 --name my-app -e RAILS_MASTER_KEY=$(cat config/master.key) my-app bin/rails s
+```

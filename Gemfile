@@ -2,15 +2,11 @@ source "https://rubygems.org"
 
 # Use main development branch of Rails
 gem "rails", github: "rails/rails", branch: "main"
-# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
-gem "sprockets-rails"
-# Use sqlite3 as the database for Active Record
 gem "sqlite3", ">= 1.4"
-
 gem "puma"
 gem "kamal", require: false
 gem "bootsnap", require: false
-
+gem "sprockets-rails"
 gem "vite_rails"
 gem "litestack", "0.4.4"
 
