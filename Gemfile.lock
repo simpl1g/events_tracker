@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 1edb8083b8d0de1ba9c09502d28add96ac20d659
+  revision: 50ddde5adb9a97d6923370596e69c5beeb9eefca
   branch: main
   specs:
     actioncable (8.1.0.alpha)
@@ -114,7 +114,7 @@ GEM
       racc
     builder (3.3.0)
     concurrent-ruby (1.3.4)
-    connection_pool (2.4.1)
+    connection_pool (2.5.0)
     crass (1.0.6)
     date (3.4.1)
     dotenv (3.1.6)
@@ -150,7 +150,7 @@ GEM
       rackup (~> 2)
       sqlite3 (>= 1.6.0, < 2.0.0)
       tilt (~> 2)
-    logger (1.6.4)
+    logger (1.6.5)
     loofah (2.24.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
